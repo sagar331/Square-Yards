@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0b71e4ebb7d241efa93c0a5ae6540772 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0b71e4ebb7d241efa93c0a5ae6540772" ></div>
+        
+</body>
+<script>    
+    
+            var map_0b71e4ebb7d241efa93c0a5ae6540772 = L.map(
+                "map_0b71e4ebb7d241efa93c0a5ae6540772",
+                {
+                    center: [46.3144754, 11.0480288],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_729c73099cd14efe92c58d0447cb6870 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0b71e4ebb7d241efa93c0a5ae6540772);
+        
+    
+            var marker_cluster_093536ec1d7b4e868fd153951055fcad = L.markerClusterGroup(
+                {}
+            );
+            map_0b71e4ebb7d241efa93c0a5ae6540772.addLayer(marker_cluster_093536ec1d7b4e868fd153951055fcad);
+        
+    
+            var marker_8d4149f28bea4ebf8c2f91b5714431cc = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(marker_cluster_093536ec1d7b4e868fd153951055fcad);
+        
+    
+        var popup_77789937af1b434b89e238aac1ffa6e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10144c083a2a4c9e8bcddc5b6e259894 = $(`<div id="html_10144c083a2a4c9e8bcddc5b6e259894" style="width: 100.0%; height: 100.0%;">noida sector 14</div>`)[0];
+            popup_77789937af1b434b89e238aac1ffa6e8.setContent(html_10144c083a2a4c9e8bcddc5b6e259894);
+        
+
+        marker_8d4149f28bea4ebf8c2f91b5714431cc.bindPopup(popup_77789937af1b434b89e238aac1ffa6e8)
+        ;
+
+        
+    
+    
+            marker_8d4149f28bea4ebf8c2f91b5714431cc.bindTooltip(
+                `<div>
+                     noida sector 14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_718428c7c0504434aea2b28790db827f = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(marker_cluster_093536ec1d7b4e868fd153951055fcad);
+        
+    
+        var popup_1c89b816866e46f9af974469e832aefe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a46267691d0f4eac8fa0d0b05dc5d271 = $(`<div id="html_a46267691d0f4eac8fa0d0b05dc5d271" style="width: 100.0%; height: 100.0%;">delhi patelnagr</div>`)[0];
+            popup_1c89b816866e46f9af974469e832aefe.setContent(html_a46267691d0f4eac8fa0d0b05dc5d271);
+        
+
+        marker_718428c7c0504434aea2b28790db827f.bindPopup(popup_1c89b816866e46f9af974469e832aefe)
+        ;
+
+        
+    
+    
+            marker_718428c7c0504434aea2b28790db827f.bindTooltip(
+                `<div>
+                     delhi patelnagr
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d084a069562e4deeb1df2837d4dd625a = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(marker_cluster_093536ec1d7b4e868fd153951055fcad);
+        
+    
+        var popup_cbccc43f95e443399dea538dad239251 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2301cad6994464f889ad6234f92924c = $(`<div id="html_f2301cad6994464f889ad6234f92924c" style="width: 100.0%; height: 100.0%;">huda ciy center</div>`)[0];
+            popup_cbccc43f95e443399dea538dad239251.setContent(html_f2301cad6994464f889ad6234f92924c);
+        
+
+        marker_d084a069562e4deeb1df2837d4dd625a.bindPopup(popup_cbccc43f95e443399dea538dad239251)
+        ;
+
+        
+    
+    
+            marker_d084a069562e4deeb1df2837d4dd625a.bindTooltip(
+                `<div>
+                     huda ciy center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8df1b0bd3554e99bfc54e0f38750428 = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(marker_cluster_093536ec1d7b4e868fd153951055fcad);
+        
+    
+        var popup_6fcd92583c404f3aa4d9cd8a0acce16d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c5736f3496e4f7ea5f6679bbca63b94 = $(`<div id="html_7c5736f3496e4f7ea5f6679bbca63b94" style="width: 100.0%; height: 100.0%;">bada bajar vihar</div>`)[0];
+            popup_6fcd92583c404f3aa4d9cd8a0acce16d.setContent(html_7c5736f3496e4f7ea5f6679bbca63b94);
+        
+
+        marker_b8df1b0bd3554e99bfc54e0f38750428.bindPopup(popup_6fcd92583c404f3aa4d9cd8a0acce16d)
+        ;
+
+        
+    
+    
+            marker_b8df1b0bd3554e99bfc54e0f38750428.bindTooltip(
+                `<div>
+                     bada bajar vihar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c425d96322f49e0837ed6e9b41a8b1d = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(marker_cluster_093536ec1d7b4e868fd153951055fcad);
+        
+    
+        var popup_f23e269f058a4b78a40180ceb330f8ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44bc1f2a780b4cc6b0eb1ab04cac3554 = $(`<div id="html_44bc1f2a780b4cc6b0eb1ab04cac3554" style="width: 100.0%; height: 100.0%;">paraspur</div>`)[0];
+            popup_f23e269f058a4b78a40180ceb330f8ff.setContent(html_44bc1f2a780b4cc6b0eb1ab04cac3554);
+        
+
+        marker_3c425d96322f49e0837ed6e9b41a8b1d.bindPopup(popup_f23e269f058a4b78a40180ceb330f8ff)
+        ;
+
+        
+    
+    
+            marker_3c425d96322f49e0837ed6e9b41a8b1d.bindTooltip(
+                `<div>
+                     paraspur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_025e50dd9c864a8abec17516e6984579 = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(marker_cluster_093536ec1d7b4e868fd153951055fcad);
+        
+    
+        var popup_286b1b38eda54d809247ab3287614217 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f3bd94bc6fa43018ab6ad2dc5fdaf93 = $(`<div id="html_9f3bd94bc6fa43018ab6ad2dc5fdaf93" style="width: 100.0%; height: 100.0%;">east medanipur</div>`)[0];
+            popup_286b1b38eda54d809247ab3287614217.setContent(html_9f3bd94bc6fa43018ab6ad2dc5fdaf93);
+        
+
+        marker_025e50dd9c864a8abec17516e6984579.bindPopup(popup_286b1b38eda54d809247ab3287614217)
+        ;
+
+        
+    
+    
+            marker_025e50dd9c864a8abec17516e6984579.bindTooltip(
+                `<div>
+                     east medanipur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b324cdc6497f4cec92da8f7e90c940a9 = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(marker_cluster_093536ec1d7b4e868fd153951055fcad);
+        
+    
+        var popup_612f6dc6f95744128279ff83b1b809d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85e00ccf24344531bb57ad8d054be8ae = $(`<div id="html_85e00ccf24344531bb57ad8d054be8ae" style="width: 100.0%; height: 100.0%;">ambedkar road</div>`)[0];
+            popup_612f6dc6f95744128279ff83b1b809d4.setContent(html_85e00ccf24344531bb57ad8d054be8ae);
+        
+
+        marker_b324cdc6497f4cec92da8f7e90c940a9.bindPopup(popup_612f6dc6f95744128279ff83b1b809d4)
+        ;
+
+        
+    
+    
+            marker_b324cdc6497f4cec92da8f7e90c940a9.bindTooltip(
+                `<div>
+                     ambedkar road
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f967cf566e674fd6b881fd205027acc5 = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(marker_cluster_093536ec1d7b4e868fd153951055fcad);
+        
+    
+        var popup_e2fcd3b6a4384205a0766c453b40d974 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_551c7449e20e45658e027fa27e66bd83 = $(`<div id="html_551c7449e20e45658e027fa27e66bd83" style="width: 100.0%; height: 100.0%;">noida sector 12/22</div>`)[0];
+            popup_e2fcd3b6a4384205a0766c453b40d974.setContent(html_551c7449e20e45658e027fa27e66bd83);
+        
+
+        marker_f967cf566e674fd6b881fd205027acc5.bindPopup(popup_e2fcd3b6a4384205a0766c453b40d974)
+        ;
+
+        
+    
+    
+            marker_f967cf566e674fd6b881fd205027acc5.bindTooltip(
+                `<div>
+                     noida sector 12/22
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
