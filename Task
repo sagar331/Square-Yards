@@ -1,0 +1,17 @@
+Company - Square Yards
+Venture - Props AMC
+As discussed, Pls find the Assignment given below and pls submit the assignment before Monday ,
+
+ 
+
+Assignment: (time needed – 2 to 3 hours)
+
+Develop a simple 1-page Django application that does the following:
+
+1>Accepts an XL file containing one or more addresses and on submit, returns an updated XL file with the addresses along with latitude and longitude for each address. 
+a>You can use any third party API to geocode the address – Google Maps, MapQuest or any other. 
+b>Please use Python 3.8.5, Django 2.2.17. All other packages used must be listed in requirements.txt along with setup instructions in a readme file. 
+c>Code must be uploaded to a public GitHub page for review. 
+1>The application will be evaluated on the following parameters:
+a>Adherence/interpretation of requirements
+b>Code Quality
